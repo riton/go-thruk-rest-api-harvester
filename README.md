@@ -13,7 +13,7 @@ will perform the exact same query.
 ## Build and install
 
 ```
-$ go get https://github.com/riton/go-thruk-rest-api-harvester
+$ go get github.com/riton/go-thruk-rest-api-harvester
 $ cd $GOPATH/src/github.com/riton/go-thruk-rest-api-harvester
 $ go install .
 ```
@@ -21,7 +21,7 @@ $ go install .
 ## Usage
 
 ```
-$ THRUK_ENDPOINT=http://mythruk-install.eu/thruk thruk-rest-api-harvester
+$ THRUK_ENDPOINT=http://mythruk-install.eu/thruk go-thruk-rest-api-harvester
 [...]
 INFO[0001] hosts = hplj2605dn,linksys-srw224p,localhost,winserver  worker-id=4
 INFO[0001] hosts = hplj2605dn,linksys-srw224p,localhost,winserver  worker-id=0
